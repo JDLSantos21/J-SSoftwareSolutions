@@ -64,8 +64,8 @@ body{
 /* FORMULARIO =================================== */
 
 .form_wrap{
-    width: 1050px;
-    height: 530px;
+    width: 80%;
+    height: 60%;
     margin: 50px auto;
     display: flex;
 
@@ -91,7 +91,7 @@ body{
 }
 
 .cantact_info{
-    width: 38%;
+    width: 100%;
     position: relative;
 
     display: flex;
@@ -299,4 +299,28 @@ margin-bottom:20px;
     background: #4091EC;
     text-decoration: none;
     color: #fff;
+}
+
+
+@media only screen and (max-width:990px){
+
+.form_wrap{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact_info{
+width:100%;
+}
+
+
+form.form_contact{
+    display: flex;
+    flex-direction: column;
+    width: 62%;
+    padding: 30px 40px;
+    justify-content: center;
+}
+
 }

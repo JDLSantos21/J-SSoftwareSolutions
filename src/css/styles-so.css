@@ -67,7 +67,7 @@ body{
     margin: auto;
     display: flex;
     justify-content:center;
-    height:100%;
+    height:200%;
     width: 70%;
     /* background: #fff; */
     position:relative;
@@ -75,7 +75,7 @@ body{
     background: rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(5px);
     border-radius: 20px;
-    box-shadow:0px 2px 10px 1px #000;
+    box-shadow:0px 0px 5px rgba(0, 0, 0, .5);
 
 }
 
@@ -180,8 +180,13 @@ height:100%;
   width:100%;
   height:0;
   display:flex;
+  
 }
 
+/* .pdf-container embed{
+  width: 100%;
+  
+} */
 
 
 
@@ -482,5 +487,107 @@ transform: translateX(1000px);
   .pie-pag{
     position:relative;
     top:230px;
+  }
+
+
+  /* RESPONSIVE DESIGN */
+
+  @media only screen and (max-width: 1524px){
+
+    .desc-container{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+    }
+    
+    .title{
+      margin: 0;
+      font-size:35px;
+    }
+
+    .desc{
+      font-size:18px;
+    }
+
+    .req-container{
+      margin: auto;
+    }
+
+  }
+
+
+  @media only screen and (max-width: 1300px){
+    
+    .so-description{
+      flex-direction: column;
+    }
+
+    .desc-container{
+      width:100%;
+    }
+
+    .req-container{
+      width: 100%;
+    }
+
+    .req-title{
+      margin:0px;
+    }
+
+    .rainbow{
+      position: relative;
+      top: -10px;
+    }
+
+    .so-teach-up{
+      flex-direction: column;
+    }
+    .text-and-button{
+      width:100%;
+    }
+  }
+
+  @media only screen and (max-width:750px){
+  
+  .main{
+    width:100%;
+    border-radius: 0;
+  }
+
+  .so-teach{
+    border-radius: 0;
+  }
+  
+  .back{
+    position:relative;
+    top:100px;
+    left:20%;
+    
+  }
+
+  .next{
+    position: relative;
+    top:100px;
+    right:-65%;
+  }
+
+  .solaris-next{
+    position: relative;
+    top:100px;
+    left:48%;
+  }
+
+  .vbox-back{
+    position: relative;
+    top:100px;
+    left:47.3%;
+  }
+  
+  .pie-pag{
+    display:flex;
+    flex-direction: column;
+
+  }
   }
 
