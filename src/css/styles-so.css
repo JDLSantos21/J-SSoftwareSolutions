@@ -562,32 +562,32 @@ transform: translateX(1000px);
   .back{
     position:relative;
     top:100px;
-    left:20%;
     
   }
-
+  
   .next{
     position: relative;
     top:100px;
-    right:-65%;
+    
   }
 
-  .solaris-next{
-    position: relative;
-    top:100px;
-    left:48%;
+  .move-btn{
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
   }
 
-  .vbox-back{
+  .solaris-next, .vbox-back{
     position: relative;
-    top:100px;
-    left:48%;
+    left:2.7%;
   }
-  
+
+
   .pie-pag{
     display:flex;
     flex-direction: column;
 
   }
   }
-
+  
