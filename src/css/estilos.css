@@ -318,7 +318,7 @@ width:100%;
 form.form_contact{
     display: flex;
     flex-direction: column;
-    width: 62%;
+    width: 100%;
     padding: 30px 40px;
     justify-content: center;
 }
