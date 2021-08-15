@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contacto - J&S Software Solutions</title>
+    <link rel="shortcut icon" href="src/img/icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="src/css/estilos.css">
+    <link rel="stylesheet" href="src/css/font-awesome.css">
+    <script
+    src="https://kit.fontawesome.com/efe304a6d8.js"
+    crossorigin="anonymous"
+  ></script>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <div id="particles-js"></div>
+
+    <header class="header" id="header">
+   
+        <nav class="navbar">
+            <ul class="main-menu">
+                <li class="main-menu__item"><a href="index.html" class="main-menu__link">Inicio</a></li>
+                <li class="main-menu__item"><a href="index.html#link" class="main-menu__link">Softwares</a></li>
+                <li class="main-menu__item"><a href="#" class="main-menu__link">Contacto</a></li>
+        </nav>
+        
+     </header>
+
+    <section class="form_wrap">
+
+        <section class="cantact_info">
+            <section class="info_title">
+                <span class="fa fa-user-circle"></span>
+                <h2>INFORMACION<br>DE CONTACTO</h2>
+            </section>
+            <section class="info_items">
+                <p><span class="fa fa-envelope"></span> JDLSantos21@hotmail.com</p>
+                <p><span class="fa fa-mobile"></span> +1 (849) 356-0359</p>
+            </section>
+        </section>
+
+        <form action="enviar.php" method="post" class="form_contact">
+            <h2>Envia un mensaje</h2>
+            <div class="user_info">
+                <label for="names">Nombres *</label>
+                <input type="text" id="names" name="nombre" required>
+
+                <label for="phone">Telefono / Celular</label>
+                <input type="text" id="phone" name="telefono" >
+
+                <label for="email">Correo electronico *</label>
+                <input type="text" id="email" name="correo" required>
+
+                <label for="mensaje">Mensaje *</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+
+                <input type="submit" value="Enviar Mensaje" id="btnSend">
+            </div>
+        </form>
+
+    </section>
+
+    <script src="particles.min.js"></script>
+    <script src="particles-config.js"></script>
+</body>
+</html>
