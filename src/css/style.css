@@ -372,6 +372,11 @@ body::-webkit-scrollbar-thumb{
   }
   
 
+.fas{
+    color:#e74c3c;
+        text-shadow:1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+  
   /* RESPONSIVE DESIGN */
 
   @media only screen and (max-width: 1768px){
@@ -442,13 +447,30 @@ body::-webkit-scrollbar-thumb{
         padding:25px;
     }
 
+
+
+    .up-container{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
     .fas{
+        
         position: relative;
         top:-50px;
     }
   }
 
   @media only screen and (max-width: 514px){
+
+
+
+    .fas{
+        right:25px;
+
+    }
 
     .subtitulo{
         font-size:20px ;
