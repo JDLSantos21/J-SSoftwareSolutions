@@ -1,5 +1,5 @@
 # J-SSoftwareSolutions
-Pagina con todos los instructivos de la asignatura Sistemas Operativos Avanzados. Trabajo Final.
+Page with all the instructions for the subject Advanced Operating Systems. Final work.
 
 # Description
 
