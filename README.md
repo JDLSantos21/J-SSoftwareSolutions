@@ -7,6 +7,8 @@ My first whole project I created. Final assignment of the subject Advanced Opera
 
 This is a project created to show all the instructions that were made throughout the subject, as well as to place information, minimum requirements and that the created docs can be opened from the same page.
 
+Project deployed on GitHub Pages: https://jdlsantos21.github.io/J-SSoftwareSolutions/
+
 # Homepage
 
 ![image](https://user-images.githubusercontent.com/79732142/169897749-0766409b-6131-4268-ab74-803705977c91.png)
@@ -26,4 +28,9 @@ Deployment of software installation and download instructions documents:
 
 ![image](https://user-images.githubusercontent.com/79732142/169898255-d0d9dd23-4b67-48a5-be79-bef86d581479.png)
 
+# Contact Page
 
+![image](https://user-images.githubusercontent.com/79732142/169898506-57aa3c14-3cb1-4295-8636-c2a08c8ac965.png)
+
+
+Project deployed on GitHub Pages: https://jdlsantos21.github.io/J-SSoftwareSolutions/
