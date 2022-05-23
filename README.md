@@ -7,6 +7,8 @@ My first whole project I created. Final assignment of the subject Advanced Opera
 
 This is a project created to show all the instructions that were made throughout the subject, as well as to place information, minimum requirements and that the created docs can be opened from the same page.
 
+This project has a responsive design, adaptable to any device.
+
 Project deployed on GitHub Pages: https://jdlsantos21.github.io/J-SSoftwareSolutions/
 
 # Homepage
